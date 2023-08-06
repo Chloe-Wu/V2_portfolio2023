@@ -7,23 +7,24 @@ import ai from "../../assets/ai.png"
 const Header = () => {
   return (
     <div className='gpt3_header section_padding' id="home">
+      
       <div className='gpt3_header_content'>
-        <h1 className="gradient_text ">Let’s Build Something
-amazing with GPT-3 OpenAI</h1>
-        <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-      <div className='gpt3_header_content_input'>
+        <h1 className="gradient_text ">Hello &#128075;, I'm Yiwei Wu,</h1>
+        <p>a front-end & ux engineer in Seattle.</p>
+      {/* <div className='gpt3_header_content_input'>
         <input type="email" placeholder='Your email address'/>
         <button type="button">Get Started</button>
-      </div>
+      </div> */}
       <div className='gpt3_header_content_people'>
-        <img src={people} alt="people"/>
-        <p>1,600 people requested access a visit in last 24 hours</p>
+        {/* <img src={people} alt="people"/> */}
+        <p>I aim to deliver seamless and user-centric digital experiences that not only meet project objectives but also provide effective solutions to users' needs.</p>
+      </div>
       </div>
 
       <div className='gpt3_header_image'>
         <img src={ai} alt="ai"/>
       </div>
-      </div>
+
     </div>
   )
 }

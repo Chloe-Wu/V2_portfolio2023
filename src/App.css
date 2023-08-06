@@ -6,30 +6,37 @@
 }
 
 body{
-    background-color: var(--color-bg);
+    /* background-color: var(--color-bg); */
+    /* height:100%; */
 }
 a {
     color: unset;
     text-decoration: none;
   }
+  .rightC{
+    padding-left:14rem;
+  }
 .gradient_bg{
     /* Angry Tool */
+    /* ff 3.6+ */
+    background: -moz-linear-gradient(90deg, rgba(2, 7, 15, 1) 57%, rgba(0, 28, 33, 1) 100%, rgba(10, 27, 40, 1) 100%); 
 
-        /* ff 3.6+ */
-        background: -moz-radial-gradient(circle at 3% 25%, rgba(4, 12, 24, 1) 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-    
-        /* safari 5.1+,chrome 10+ */
-        background: -webkit-radial-gradient(circle at 3% 25%, rgba(4, 12, 24, 1) 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-    
-        /* opera 11.10+ */
-        background: -o-radial-gradient(circle at 3% 25%, rgba(4, 12, 24, 1) 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-    
-        /* ie 10+ */
-        background: -ms-radial-gradient(circle at 3% 25%, rgba(4, 12, 24, 1) 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-    
-        /* global 92%+ browsers support */
-        background: radial-gradient(circle at 3% 25%, rgba(4, 12, 24, 1) 0%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(90deg, rgba(2, 7, 15, 1) 57%, rgba(0, 28, 33, 1) 100%, rgba(10, 27, 40, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-linear-gradient(90deg, rgba(2, 7, 15, 1) 57%, rgba(0, 28, 33, 1) 100%, rgba(10, 27, 40, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0A1B28', endColorstr='#02070F', GradientType=0 );
+
+    /* ie 10+ */
+    background: -ms-linear-gradient(90deg, rgba(2, 7, 15, 1) 57%, rgba(0, 28, 33, 1) 100%, rgba(10, 27, 40, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background: linear-gradient(90deg, rgba(2, 7, 15, 1) 57%, rgba(0, 28, 33, 1) 100%, rgba(10, 27, 40, 1) 100%);
 }
+
 .gradient_text{
     background:var(--gradient-text);
     background-clip: text;
@@ -40,10 +47,12 @@ a {
 
 .section_padding{
     padding: 4rem 6rem;
+    /* padding-left:30rem; */
 }
 
 .section_margin{
     margin: 4rem 6rem;
+    /* margin-left:30rem; */
 }
 
 /* animista.net --css animation library */
@@ -81,6 +90,9 @@ a {
     .section_margin{
         margin:4rem;
     }
+    .rightC{
+      padding-left:0rem;
+    }
   }
 
   @media screen and (max-width:550px){
@@ -89,5 +101,8 @@ a {
     }
     .section_margin{
         margin:4rem 2rem;
+    }
+    .rightC{
+      padding-left:0rem;
     }
   }

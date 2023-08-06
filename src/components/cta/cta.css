@@ -1,0 +1,120 @@
+.gpt3__cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    /* padding: 4rem; */
+    /* margin: 4rem; */
+    border-radius: 1rem;
+    /* background-color: #185d8818; */
+}
+
+.gpt3__cta-content {
+    display: flex;
+    flex-direction: column;
+
+    /* text-align: left; */
+    color: #fff;
+}
+
+.gpt3__cta-content p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.gpt3__cta-content h1 {
+    font-family: var(--font-family);
+    font-size: 62px;
+    line-height: 45px;
+    font-weight: 800;
+    text-align: center;
+    padding:4rem 2rem;
+
+}
+
+.gpt3__cta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 2rem;
+}
+
+.gpt3__cta-btn button {
+    background: #000;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+.techStack{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap:50px;
+    max-width: 800px;
+}
+.techStack .icon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: var(--font-family);
+    color:white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.skills_icon{
+    color:rgba(231, 237, 255, 0.923);
+}
+.skills_icon:hover{
+    color:#C784AD;
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3__cta {
+        flex-direction: column;
+    }
+
+    .gpt3__cta-btn {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__cta {
+        flex-direction: column;
+        margin: 0rem 2rem;
+    }
+
+    .gpt3__cta-content h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .gpt3__cta-btn button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .skills_icon{
+        width:30px;
+        height:30px;
+    }
+    .techStack{
+        gap:35px;
+    }
+}
