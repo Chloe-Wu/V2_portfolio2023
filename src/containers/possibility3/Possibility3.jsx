@@ -11,7 +11,7 @@ const Possibility3 = () => (
     <div className="gpt3__possibility-content">
       <h4>Machine Learning - Online Emotion Detection</h4>
       <h1 className="gradient_text">RMS</h1>
-      <p>Monitor the remote meeting Anxiety and boost efficiency for both presenters and audiences during presentations through emotional design.</p>
+      <p>Monitor the remote meeting anxiety and boost efficiency for both presenters and audiences during presentations through emotional design.</p>
       <h4><ul>
             <li>Python</li>
             <li>JavaScript</li>

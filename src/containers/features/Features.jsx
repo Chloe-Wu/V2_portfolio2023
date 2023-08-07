@@ -20,7 +20,7 @@ const featuresData = [
   {
     title: '2022 - 2023',
     text: 'Student Frontend Engineer · T-Mobile',
-    text2:'Developed a cloud-based web application, implementing map, automation, communication, and collabora tion features using React, HTML5, CSS, JavaScript/ES6',
+    text2:'Developed a cloud-based web application, implementing map, automation, communication, and collaboration features using React, HTML5, CSS, JavaScript/ES6.',
     label:{
       1:'React',
       2:'HTML',
@@ -35,7 +35,7 @@ const featuresData = [
   {
     title: '2020 - 2021',
     text: 'UX Engineer / Cofounder · 345pi',
-    text2:'Developed a cloud-based web application, implementing map, automation, communication, and collabora- tBuilt an innovative edTech web3 app MVP for math major students using React, Tailwind CSS, NextJS, TypeScript and Python.',
+    text2:'Developed a cloud-based web application, implementing map, automation, communication, and collaborate. Built an innovative edTech web3 app MVP for math major students using React, Tailwind CSS, NextJS, TypeScript and Python.',
     label:{
       1:'React',
       // 2:'HTML',

@@ -82,6 +82,8 @@
 p .email{
     font-size:20px;
     margin: 1rem 0;
+    color:#f5a0d4;
+    font-weight: bolder;
 }
 
 @media screen and (max-width: 850px) {

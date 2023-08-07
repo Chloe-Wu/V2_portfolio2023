@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className='contact section_margin' id="contact">
       <div className='contact_feature'>
-        <Feature title="Get In Touch" text={<p><p>I’m currently looking for new opportunities, and my inbox is always open. If you have a question or want to grab a coffee, send me an email!</p><p className='email'><a href = "mailto: yiweiwu.hello@gmail.com"><AiOutlineMail/> yiweiwu.hello@gmail.com</a></p></p>}/>
+        <Feature title="Get In Touch" text={<p><p>I’m currently looking for new opportunities, and my inbox is always open. If you have a question or want to grab a coffee, send me an email!</p><p className='email '><a href = "mailto: yiweiwu.hello@gmail.com"><AiOutlineMail/> yiweiwu.hello@gmail.com</a></p></p>}/>
       </div>
       {/* <div className='gpt3_whatgpt3_header'>
         <h1 className='gradient_text'># Problem solver <br/># UW Husky <br/># Music lover <br/># Love cool things

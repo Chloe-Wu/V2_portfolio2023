@@ -18,10 +18,10 @@
 
 .gpt3_feature_container_feature_title h1{
     font-family: var(--font-family);
-    font-weight: 800;
+    font-weight: 500;
     font-size: 18px;
-    line-height: 24px;
-    letter-spacing: -0.04em;
+    line-height: 30px;
+    letter-spacing: 0.06em;
     color: #fff;
 }
 .gpt3_feature_container_feature_title div {
@@ -41,15 +41,21 @@
     width: 100%;
 }
 .gpt3__features .gpt3_feature_container_feature_text:hover{
-    background-color: #c2e1ff06;
+    background-color: #707f8e24;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     border-radius: 10px;
+}
+.gpt3_feature_container_feature_text h3{
+    font-weight: 600;;
+    font-size: 20px;
+    letter-spacing: 0.06rem;;
+    
 }
 
 .gpt3_feature_container_feature_text p {
     font-family: var(--font-family);
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     color: var(--color-text);
 }
@@ -61,13 +67,16 @@
     gap:5px;
     margin-top:1rem;
     flex-wrap:wrap;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
 }
 .gpt3_feature_container_feature_text .label ul li{
     border-radius:20px;
     padding:2px 10px;
     background-color:rgba(34, 192, 155, 0.107);
     color:rgba(34, 192, 155, 1);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 850px) {
