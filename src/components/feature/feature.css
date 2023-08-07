@@ -75,13 +75,13 @@
         flex: 0 0;
     }
     .gpt3_feature_container_feature_title h1 {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 22px;
     }
 
     .gpt3_feature_container_feature_text p {
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 30px;
     }
 
     .gpt3_feature_container_feature {
