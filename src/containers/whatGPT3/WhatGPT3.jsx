@@ -7,7 +7,7 @@ const WhatGPT3 = () => {
     <div className='gpt3_whatgpt3 section_margin' id="about">
       <div className='gpt3_whatgpt3_feature'>
         <Feature title="About Me" text={<p><p>Back in 2018, I decided to try my hand at joining the IoT team at Motic and dove head-first into the rabbit hole of the new tech world. Fast-forward to today, I have had the privilege of building software for 
-          <span className='hightlightText'>a financial firm, a telecom company, a start-up,</span> 
+          <span className='hightlightText'> a financial firm, a telecom company, a start-up,</span> 
           and 
           <span className='hightlightText'>T-mobile.</span>
           </p>
