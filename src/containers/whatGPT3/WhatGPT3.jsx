@@ -15,9 +15,9 @@ const WhatGPT3 = () => {
         {/* <p>Explore the library</p> */}
       </div>
       <div className='gpt3_whatgpt3_container'>
-        <Feature title="Front-End" text={<p>Proficient in HTML5, CSS3, and JavaScript. Skilled in building responsive and interactive user interfaces using React.js and other modern front-end frameworks."</p>} />
-        <Feature title="Back-End" text={<p>Experienced in server-side programming with Node.js and working with databases such as CosmosDB and MySQL to develop robust and scalable web applications."</p>}  />
-        <Feature title="UX/UI" text={<p>PA strong advocate for creating intuitive and delightful user experiences. Familiar with UX design principles, wireframing, and prototyping tools to craft seamless interactions."</p>}  />    
+        <Feature title="Front-End" text={<p>Proficient in HTML5, CSS3, and JavaScript. Skilled in building responsive and interactive user interfaces using React.js and other modern front-end frameworks.</p>} />
+        <Feature title="Back-End" text={<p>Experienced in server-side programming with Node.js and working with databases such as CosmosDB and MySQL to develop robust and scalable web applications.</p>}  />
+        <Feature title="UX/UI" text={<p>PA strong advocate for creating intuitive and delightful user experiences. Familiar with UX design principles, wireframing, and prototyping tools to craft seamless interactions.</p>}  />    
       </div>¸
     </div>
   )
