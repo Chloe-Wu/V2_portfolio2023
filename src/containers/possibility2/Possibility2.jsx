@@ -1,6 +1,7 @@
 import React from 'react';
 import possibilityImage from '../../assets/345pi.png';
 import '../possibility/possibility.css';
+import {FiGithub, FiExternalLink} from'../../components/brand/imports';
 
 const Possibility2 = () => (
   <div className="gpt3__possibility section_padding" id="possibility">
@@ -19,7 +20,7 @@ const Possibility2 = () => (
         </ul>
       </h4>
       <h4>
-        <span><a href="https://345pi.net">Live Site<span className='rarrow'>-&gt;</span></a></span> | <span><a href="https://github.com/345piTeam/345pi.net">Github<span className='rarrow'>-&gt;</span></a></span>
+        <span><a href="https://345pi.net"><FiExternalLink /> <span className='rarrow'>Live Site</span></a></span> | <span><a href="https://github.com/345piTeam/345pi.net"><FiGithub/> <span className='rarrow'>Github</span></a></span>
       </h4>
     </div>
     

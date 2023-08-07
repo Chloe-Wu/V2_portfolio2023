@@ -1,6 +1,7 @@
 import React from 'react';
 import possibilityImage from '../../assets/rms.png';
 import '../possibility/possibility.css';
+import {FiGithub, FiExternalLink} from'../../components/brand/imports';
 
 const Possibility3 = () => (
   <div className="gpt3__possibility section_padding" id="possibility">
@@ -20,7 +21,7 @@ const Possibility3 = () => (
         </ul>
       </h4>
       <h4>
-        <span><a href="https://github.com/Chloe-Wu/RMS/tree/main">Github<span className='rarrow'>-&gt;</span></a></span>
+        <span><a href="https://github.com/Chloe-Wu/RMS/tree/main"><FiGithub/> <span className='rarrow'>Github</span></a></span>
       </h4>
     </div>
     

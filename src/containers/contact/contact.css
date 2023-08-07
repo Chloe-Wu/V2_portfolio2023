@@ -1,4 +1,4 @@
-.gpt3_whatgpt3 {
+.contact {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -25,17 +25,17 @@
     background: linear-gradient(90deg, rgba(0, 21, 43, 1) 0%, rgba(10, 27, 40, 1) 50%, rgba(0, 28, 33, 1) 100%);
 }
 
-.gpt3_whatgpt3_feature{
+.contact_feature{
     display: flex;
 }
 
-.gpt3_whatgpt3_feature .gpt3_features_container_feature{
+.contact_feature .gpt3_features_container_feature{
     margin:0;
 }
-.gpt3_whatgpt3_feature .gpt3_features_container_feature_text{
+.contact_feature .gpt3_features_container_feature_text{
     max-width: 700px;
 }
-.gpt3_whatgpt3_header{
+.contact_header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,14 +43,14 @@
 
     margin:4rem 0 2rem;
 }
-.gpt3_whatgpt3_header h1{
+.contact_header h1{
     font-size: 34px;
     line-height: 45px;
     font-weight: 800;
     font-family: var(--font-family);
     max-width: 510px;
 }
-.gpt3_whatgpt3_header p{
+.contact_header p{
     font-family: var(--font-family);
     font-weight: 500;
     color:var(--color-subtext);
@@ -58,7 +58,7 @@
     line-height: 30px;
     cursor: pointer;
 }
-.gpt3_whatgpt3_container{
+.contact_container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -67,7 +67,7 @@
 }
 
 /* Customizing feature component as per needs */
-.gpt3_whatgpt3_container .gpt3_feature_container_feature {
+.contact_container .gpt3_feature_container_feature {
     flex: 1;
     margin: 1rem;
     min-width: 210px;
@@ -76,7 +76,7 @@
 }
 
 /* Customizing feature component as per needs */
-.gpt3_whatgpt3_container .gpt3_feature_container_feature_text {
+.contact_container .gpt3_feature_container_feature_text {
     margin-top: 0.5rem;
 }
 p .email{
@@ -85,29 +85,29 @@ p .email{
 }
 
 @media screen and (max-width: 850px) {
-    .gpt3_whatgpt3_header {
+    .contact_header {
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 0rem;
     }
 
-    .gpt3_whatgpt3_header p {
+    .contact_header p {
         margin-top: 1rem;
     }
 }
 
 @media screen and (max-width: 650px) {
     /* Customizing feature component as per needs */
-    .gpt3_whatgpt3_feature .gpt3_feature_container_feature {
+    .contact_feature .gpt3_feature_container_feature {
         flex-direction: column;
     }
 
     /* Customizing feature component as per needs */
-    .gpt3_whatgpt3_feature .gpt3_feature_container_feature_text {
+    .contact_feature .gpt3_feature_container_feature_text {
         margin-top: 0.5rem;
     }
 
-    .gpt3_whatgpt3_header h1 {
+    .contact_header h1 {
         font-size: 28px;
         line-height: 40px;
     }
@@ -115,7 +115,7 @@ p .email{
 
 @media screen and (max-width: 350px) {
     /* Customizing feature component as per needs */
-    .gpt3_whatgpt3_container .gpt3_feature_container_feature {
+    .contact_container .gpt3_feature_container_feature {
         margin: 1rem 0;
         min-width: 100%;
     }

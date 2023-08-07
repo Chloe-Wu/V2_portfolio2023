@@ -10,7 +10,7 @@ const Header = () => {
       
       <div className='gpt3_header_content'>
         <h1 className="gradient_text ">Hello &#128075;, I'm Yiwei Wu,</h1>
-        <p>a front-end & ux engineer in Seattle.</p>
+        <p className="gradient_text">a front-end & ux engineer in Seattle.</p>
       {/* <div className='gpt3_header_content_input'>
         <input type="email" placeholder='Your email address'/>
         <button type="button">Get Started</button>

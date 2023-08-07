@@ -19,7 +19,7 @@
 }
 
 .gpt3_header_content p{
-    color: var(--color-text);
+    /* color: var(--color-text); */
     font-family: var(--font-family);
     font-size: 20px;
     font-style: normal;
@@ -84,10 +84,10 @@
 .gpt3_header_content_people p{
 
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 300;
     font-size: 16px;
     line-height: 27px;
-    color:#fff;
+    color:var(--color-text);
 
 }
 .gpt3_header_image{

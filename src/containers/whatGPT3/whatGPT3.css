@@ -107,6 +107,9 @@
         font-size: 28px;
         line-height: 40px;
     }
+    .gpt3_whatgpt3{
+        padding: 4rem 0rem;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -114,5 +117,8 @@
     .gpt3_whatgpt3_container .gpt3_feature_container_feature {
         margin: 1rem 0;
         min-width: 100%;
+    }
+    .section_margin{
+        margin:-1rem -1rem;
     }
 }

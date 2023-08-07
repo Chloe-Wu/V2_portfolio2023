@@ -13,12 +13,14 @@ const featuresData = [
         // 3:'CSS',
         4:'JavaScript',
         5:'WordPress',
+        6:'OpenAI',
+        7:'SEO'
       }
   },
   {
     title: '2022 - 2023',
-    text: 'Frontend Engineer · T-Mobile',
-    text2:'Developed a cloud-based web application, implementing map, automation, communication, and collabora- tion features using React, HTML5, CSS, JavaScript/ES6. Increased response efficiency by 30%.',
+    text: 'Student Frontend Engineer · T-Mobile',
+    text2:'Developed a cloud-based web application, implementing map, automation, communication, and collabora tion features using React, HTML5, CSS, JavaScript/ES6',
     label:{
       1:'React',
       2:'HTML',
@@ -40,15 +42,15 @@ const featuresData = [
       3:'TailwindCSS',
       4:'NextJS',
       5:'TypeScript',
-      // 6:'CosmosDB',
+      6:'Chart.js',
       7:'Python',
       8:'AdobeXD',
     }
   },
   {
-    title: '2019 - 2020',
+    title: '2018 - 2019',
     text: 'IoT Project Assistant · Motic',
-    text2:'Research competitive products in China, collect and analyze the Smart Energy Technology fund policy. Prioritize and manage several milestones based on the severity of tasks and labor schedule.',
+    text2:'Conducted research on IoT market trends and emerging technologies, providing valuable insights for project decision-making.',
     label:{
       1:'Project Management',
       2:'IoT',
