@@ -1,6 +1,6 @@
 import React from 'react';
 import './cta.css';
-import {AiFillHtml5, AiFillYoutube, AiFillDribbbleCircle,IoLogoCss3, IoLogoPython,  SiJavascript,SiFigma,SiVisualstudio,SiMicrosoftazure,SiAdobephotoshop,SiAdobeillustrator,SiAdobexd, SlArrowDown, IoLogoReact, TbSeo,TbBrandGmail, FiExternalLink, FaWordpress} from'../../components/brand/imports'
+import {AiFillHtml5, IoLogoCss3, IoLogoPython,  SiJavascript,SiFigma,SiVisualstudio,SiMicrosoftazure,SiAdobephotoshop,SiAdobeillustrator,SiAdobexd, SlArrowDown, IoLogoReact, TbSeo,TbBrandGmail, FiExternalLink, FaWordpress} from'../../components/brand/imports'
 
 
 const CTA = () => (

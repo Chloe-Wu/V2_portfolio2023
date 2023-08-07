@@ -8,7 +8,6 @@ import logo from '../../assets/logo.svg';
 const NavLink = ({ href, isActive, children }) => (
   <p>
     <Link
-      activeClass="active"
       to={href.slice(1)} // Remove the '#' from the href to match the element's ID
       spy
       smooth = {false}
@@ -113,6 +112,9 @@ return (
   </NavLink>
   <NavLink href="#projects" isActive={isActive}>
   <span></span>Projects
+  </NavLink>
+  <NavLink href="#contact" isActive={isActive}>
+  <span></span>Contact
   </NavLink>
 </div>
 )}

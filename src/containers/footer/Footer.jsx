@@ -15,7 +15,6 @@ const Footer = () => (
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
         {/* <img src={gpt3Logo} alt="gpt3_logo" /> */}
-
         <p>Yiwei designed in Figma and coded in Visual Studio Code by yours truly. Built with React and CSS, deployed with Github. All text is set in the Inter typeface.
         </p>
         <p>© Copyright 2023, Yiwei Wu. All Rights Reserved.</p>

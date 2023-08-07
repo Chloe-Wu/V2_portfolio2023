@@ -66,6 +66,9 @@
     align-items: center;
     opacity: 0.6;
 }
+.gpt3_navbar_links_container p a:hover{
+    cursor: pointer;
+}
 .gpt3_navbar_links_container p a.active{
     opacity: 1;
 }
