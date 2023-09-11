@@ -1,6 +1,6 @@
 import React from 'react';
 import './cta.css';
-import {AiFillHtml5, IoLogoCss3, IoLogoPython,  SiJavascript,SiFigma,SiVisualstudio,SiMicrosoftazure,SiAdobephotoshop,SiAdobeillustrator,SiAdobexd, SlArrowDown, IoLogoReact, TbSeo,TbBrandGmail, FiExternalLink, FaWordpress,FaNodeJs,FaGitAlt,IoLogoFirebase,SiGraphql} from'../../components/brand/imports'
+import {FaMicrochip,AiFillHtml5, IoLogoCss3, IoLogoPython,  SiJavascript,SiFigma,SiVisualstudio,SiMicrosoftazure,SiAdobephotoshop,SiAdobeillustrator,SiAdobexd, SlArrowDown, IoLogoReact, TbSeo,TbBrandGmail, FiExternalLink, FaWordpress,FaNodeJs,FaGitAlt,IoLogoFirebase,TbApi,SiMongodb} from'../../components/brand/imports'
 
 
 const CTA = () => (
@@ -19,17 +19,19 @@ const CTA = () => (
         <div className="icon"><IoLogoReact className="skills_icon" size={60}/><p>React</p></div>
         <div className="icon"><IoLogoPython className="skills_icon" size={60}/><p>Python</p></div>
         <div className="icon"><FaNodeJs className="skills_icon" size={60}/><p>Node</p></div>
-        <div className="icon"><SiGraphql className="skills_icon" size={60}/><p>GraphQL</p></div>
+        <div className="icon"><TbApi className="skills_icon" size={60}/><p>Api</p></div>
         <div className="icon"><SiVisualstudio className="skills_icon" size={60}/><p>Visual Studio</p></div>
         <div className="icon"><FaGitAlt className="skills_icon" size={60}/><p>Git</p></div>
         <div className="icon"><FaWordpress className="skills_icon" size={60}/><p>WordPress</p></div>
         <div className="icon"><SiMicrosoftazure className="skills_icon" size={60}/><p>Azure</p></div>
+        <div className="icon"><SiMongodb className="skills_icon" size={60}/><p>MongoDB</p></div>
         <div className="icon"><IoLogoFirebase className="skills_icon" size={60}/><p>Firebase</p></div>
         <div className="icon"><SiFigma className="skills_icon" size={60}/><p>Figma</p></div>
         <div className="icon"><SiAdobeillustrator className="skills_icon" size={60}/><p>Illustrator</p></div>
         <div className="icon"><SiAdobexd className="skills_icon" size={60}/><p>XD</p></div>
-        <div className="icon"><TbSeo className="skills_icon" size={60}/><p>SEO</p></div>
-    </div>
+        <div className="icon"><TbSeo className="skills_icon" size={60}/><p>SEO</p></div> 
+        <div className="icon"><FaMicrochip className="skills_icon" size={60}/><p>Microcontroller</p></div>
+</div>
     </div>
   </div>
 );

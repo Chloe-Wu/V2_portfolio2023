@@ -9,7 +9,7 @@
     position: fixed;
     flex-direction: column;
     height: 100%;
-    background-color: #02070f;
+    /* background-color: #f0eded; */
 }
 .gpt3_navbar_links{
     flex:1;

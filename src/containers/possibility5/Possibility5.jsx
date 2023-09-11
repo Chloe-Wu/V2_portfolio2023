@@ -1,34 +1,34 @@
 import React from 'react';
-import possibilityImage from '../../assets/345pi.png';
+import possibilityImage from '../../assets/iseeadmin.png';
 import '../possibility/possibility.css';
 import {FiGithub, FiExternalLink} from'../../components/brand/imports';
 
-const Possibility2 = () => (
+const Possibility5 = () => (
   <div className="gpt3__possibility section_padding" id="possibility">
     <div className="gpt3__possibility-image">
       <img src={possibilityImage} alt="possibility" />
     </div>
     <div className="gpt3__possibility-content">
-      <h4>EdTech - Calculus Learning Landing Page</h4>
-      <h1 className="gradient_text">345pi</h1>
-      <p>345pi is a edtech start up company which focused on creating the mobile app to gamified the calculus learning path. When I worked in the company, I developed the company landing page and designed the mobile app.</p>
+      <h4>Fullstack Ecommerse</h4>
+      <h1 className="gradient_text">I-SEE Admin</h1>
+      <p>I-SEE Admin serves as the backend hub for the shop, empowering administrators to manage inventory, including categories and products. Additionally, it provides insights into order details for purchases processed through Stripe.</p>
       <h4><ul>
             <li>NextJS</li>
+            <li>MongoDB</li>
+            <li>AWS</li>
             <li>Tailwind CSS</li>
-            <li>React</li>
-            <li>TypeScript</li>
         </ul>
       </h4>
       <h4>
         <span>
-          <a href="https://345pi.net">
+          <a href="https://i-see-admin.vercel.app/">
             <FiExternalLink />
             <span className='rarrow'>Live Site</span>
           </a>
         </span> 
           | 
         <span>
-          <a href="https://github.com/345piTeam/345pi.net">
+          <a href="https://github.com/Chloe-Wu/i-see-front">
             <FiGithub/> 
             <span className='rarrow'>Github</span>
           </a>
@@ -39,4 +39,4 @@ const Possibility2 = () => (
   </div>
 );
 
-export default Possibility2;
+export default Possibility5;

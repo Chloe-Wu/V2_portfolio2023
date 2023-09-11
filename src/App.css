@@ -16,7 +16,7 @@ a {
   .rightC{
     padding-left:14rem;
   }
-.gradient_bg{
+  .gradient_bg{
     /* Angry Tool */
     /* ff 3.6+ */
     background: -moz-linear-gradient(90deg, rgba(2, 7, 15, 1) 57%, rgba(0, 28, 33, 1) 100%, rgba(10, 27, 40, 1) 100%); 

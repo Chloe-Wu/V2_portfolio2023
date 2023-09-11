@@ -21,8 +21,8 @@ const WhatGPT3 = () => {
         {/* <p>Explore the library</p> */}
       </div>
       <div className='gpt3_whatgpt3_container'>
-        <Feature title="Front-End" text={<p>Proficient in <span className='hightlightText'>HTML5, CSS3, and JavaScript</span>. Skilled in building responsive and interactive user interfaces using <span className='hightlightText'>React.js</span> and other modern front-end frameworks.</p>} />
-        <Feature title="Back-End" text={<p>Experienced in server-side programming with <span className='hightlightText'>Node.js</span> and working with databases such as <span className='hightlightText'>CosmosDB and MySQL</span> to develop robust and scalable web applications.</p>}  />
+        <Feature title="Front-End" text={<p>Proficient in <span className='hightlightText'>HTML5, CSS3, and JavaScript</span>. Skilled in building responsive and interactive user interfaces using <span className='hightlightText'>React.js, Next.js</span> and other modern front-end frameworks.</p>} />
+        <Feature title="Back-End" text={<p>Experienced in server-side programming with <span className='hightlightText'>Node.js</span> and working with databases such as <span className='hightlightText'>MongoDB, CosmosDB and MySQL</span> to develop robust and scalable web applications.</p>}  />
         <Feature title="UX/UI" text={<p>PA strong advocate for creating intuitive and delightful user experiences. Familiar with <span className='hightlightText'>UX design principles, wireframing, and prototyping tools</span> to craft seamless interactions.</p>}  />    
       </div>¸
     </div>

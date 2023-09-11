@@ -18,6 +18,7 @@ const Possibility = () => (
             <li>React</li>
             <li>Azure</li>
             <li>Google Map API</li>
+            <li>Raspberry pi</li>
         </ul>
       </h4>
       <h4>
