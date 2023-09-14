@@ -9,7 +9,7 @@ const Possibility = () => (
       <img src={possibilityImage} alt="possibility" />
     </div>
     <div className="gpt3__possibility-content">
-      <h4>First Responder Platform</h4>
+      <h4>IoT - First Responder Platform</h4>
       <h1 className="gradient_text">School Active Shooter Rapid Response</h1>
       <p>A innovative web app which visualizes data collected by the IoT project's hardware on an interactive map of the school compound allowing first responders to quickly identify high threat areas, coordinate responses, and ultimately make tactically sound decisions to take control of the situation faster.</p>
       <h4><ul>
